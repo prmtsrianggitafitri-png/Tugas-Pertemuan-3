@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header {
+    background-color: rgb(54, 54, 56);
+    padding: 15px;
+    text-align: center;
+    color: rgb(230, 220, 220);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200px;
+    font-style: oblique;
+    border-radius: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.profil img{
+    width: 150px;
+    text-align: justify;
+    border-radius: 25px;
+    margin: 30px;
+    display: flex;
+    border: 2px dashed black;
+}
+
+.profil {
+    display: flex;
+    margin: 30px;
+}
+
+#penjelasan-profil {
+    margin: 20px;
+    line-height: 1.5;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.kartu-aktivitas {
+    display: flexbox;
+    background-color: rgb(156, 162, 162);
+    border: solid 2px navy;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 1150px;
+    padding: 10px;
+}
+
+.kartu-aktivitas  :hover {
+    color: navy;
+} 
+
+.foto-hima img {
+    width: 30%;
+    border-radius: 15px;
+    border: dashed 2px navy;
+}
+
+.foto-hima {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.leppim-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+.foto-leppim {
+    display: flex;
+    border: dashed 2px navy;
+    width: 15%;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+body {
+    background-color: rgb(159, 157, 155);
+}
+
+.foto-probumsil img {
+    width: 50%;
+    margin: 20px;
+    border-radius: 15px;
+    border: dashed 2px navy;
+}
+
+.foto-probumsil {
+    display: flex;
+    justify-content: center;
+}
+
